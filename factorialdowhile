@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+  int factorial = 1;
+  int number = 5;
+
+  do {
+    factorial *= number;
+    number--;
+  } while (number > 0);
+
+  printf("%d\n", factorial);
+
+  return 0;
+}
